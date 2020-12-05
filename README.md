@@ -1,4 +1,4 @@
-#CacheQuery
+# CacheQuery
 ## Use case
 - User sends a search request resulting in a cache hit
 - User sends a search request resulting in a cache miss
