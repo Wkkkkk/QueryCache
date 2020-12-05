@@ -1,4 +1,7 @@
 # CacheQuery
+
+Design a key-value cache to save the results of the most recent web server queries
+
 ## Use case
 - User sends a search request resulting in a cache hit
 - User sends a search request resulting in a cache miss
@@ -50,7 +53,7 @@ Since the cache has limited capacity, we'll use a least recently used (LRU) appr
 ### third party
 
 ```
-vcpkg install mongo-cxx-driver:x64-windows nlohmann-json:x64-windows boost-beast:x64-windows abseil:x64-windows
+vcpkg install mongo-cxx-driver:x64-windows nlohmann-json:x64-windows boost-beast:x64-windows abseil:x64-windows rpclib:x64-windows
 ```
 
 ### compiler
