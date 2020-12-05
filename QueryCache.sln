@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QueryCache", "QueryCache\QueryCache.vcxproj", "{A9BE73D5-8654-4A34-899D-C79D35D012B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RpcServer", "RpcTest\RpcTest.vcxproj", "{41C13B09-2A39-493D-9D83-173B5A218553}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D8D6AFC-3E69-4261-B45E-E6F7552B1D2A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "res", "res", "{31404260-203F-415E-A451-BDF033048814}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9BE73D5-8654-4A34-899D-C79D35D012B0}.Debug|x64.ActiveCfg = Debug|x64
+		{A9BE73D5-8654-4A34-899D-C79D35D012B0}.Debug|x64.Build.0 = Debug|x64
+		{A9BE73D5-8654-4A34-899D-C79D35D012B0}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9BE73D5-8654-4A34-899D-C79D35D012B0}.Debug|x86.Build.0 = Debug|Win32
+		{A9BE73D5-8654-4A34-899D-C79D35D012B0}.Release|x64.ActiveCfg = Release|x64
+		{A9BE73D5-8654-4A34-899D-C79D35D012B0}.Release|x64.Build.0 = Release|x64
+		{A9BE73D5-8654-4A34-899D-C79D35D012B0}.Release|x86.ActiveCfg = Release|Win32
+		{A9BE73D5-8654-4A34-899D-C79D35D012B0}.Release|x86.Build.0 = Release|Win32
+		{41C13B09-2A39-493D-9D83-173B5A218553}.Debug|x64.ActiveCfg = Debug|x64
+		{41C13B09-2A39-493D-9D83-173B5A218553}.Debug|x64.Build.0 = Debug|x64
+		{41C13B09-2A39-493D-9D83-173B5A218553}.Debug|x86.ActiveCfg = Debug|Win32
+		{41C13B09-2A39-493D-9D83-173B5A218553}.Debug|x86.Build.0 = Debug|Win32
+		{41C13B09-2A39-493D-9D83-173B5A218553}.Release|x64.ActiveCfg = Release|x64
+		{41C13B09-2A39-493D-9D83-173B5A218553}.Release|x64.Build.0 = Release|x64
+		{41C13B09-2A39-493D-9D83-173B5A218553}.Release|x86.ActiveCfg = Release|Win32
+		{41C13B09-2A39-493D-9D83-173B5A218553}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3104A6EE-8FAE-415C-BD30-EA976BB7423B}
+	EndGlobalSection
+EndGlobal
